@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "f0023e65-1aeb-49c7-912a-01821febbdb2",
+		"name": "Entrega Final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST product",
+			"_postman_id": "4861f4da-6d7a-4b8e-aaf5-70993df35fbf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"codProd\":\"101\",\n    \"name\":\"Silla\",\n    \"price\": 20.50\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/products/add"
+			},
+			"response": []
+		},
+		{
+			"name": "GET all products",
+			"_postman_id": "50246d8f-75ec-43eb-9ff6-03613e7474fc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"codProd\":\"101\",\n    \"name\":\"Silla\",\n    \"price\": 20.50\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/products/add"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE product",
+			"_postman_id": "1d5a64b6-0ffc-4f78-81d7-ad66ac299267",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"codProd\":\"101\",\n    \"name\":\"Silla\",\n    \"price\": 20.50\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/products/add"
+			},
+			"response": []
+		},
+		{
+			"name": "POST Client",
+			"_postman_id": "873ed92e-168f-45f4-8ae4-e5b7be5bf48e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Capri\",\n    \"surname\": \"Rodriguez\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/clients/add"
+			},
+			"response": []
+		},
+		{
+			"name": "GET all clients",
+			"_postman_id": "e1542c18-19ee-4196-a3db-8870c8a1979c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Capri\",\n    \"surname\": \"Rodriguez\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/clients"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE client",
+			"_postman_id": "7f80db49-d58b-4709-ad55-a4d3e43d5901",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Capri\",\n    \"surname\": \"Rodriguez\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/clients"
+			},
+			"response": []
+		},
+		{
+			"name": "CREAR ORDEN",
+			"_postman_id": "cddb2e2a-600c-4f81-9327-4dd2cd67f446",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
